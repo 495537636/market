@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>商品信息页面</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<p th:text="'商品ID：' + ${goodId} + '；商品名称：' + ${goodName}" /> <br/>
+		<div class="container">
+			<table class="table table-hover">
+				<tr>
+					<td>序号</td>
+					<td>商品ID</td>
+					<td>商品名称</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td th:text="${goodId}"></td>
+					<td th:text="${goodName}"></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+	
+	<link rel="stylesheet" type="text/css"
+		href="../commons/bootstrap/css/bootstrap.min.css" />
+	<script type="text/javascript"
+		src="../commons/js/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="../commons/bootstrap/js/bootstrap.min.js"></script>
+		
+</html>

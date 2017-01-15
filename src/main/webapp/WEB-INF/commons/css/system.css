@@ -1,0 +1,149 @@
+/*
+*设置body的总体样式
+*/
+body {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 150%;
+	margin: auto;
+	margin-top: 4%;
+	font: 13px/ 18px "宋体", arial, sans-serif;
+	color: #585858;
+}
+
+/*
+* {
+	font-family: Arial, Verdana, "宋体";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+}
+*/
+
+
+a {
+	cursor: pointer;
+	color: #666666;
+	text-decoration: none;
+}
+
+/*
+a:visited {
+	color:red;
+	text-decoration: none;
+}
+
+a:active {
+	color:#FFFFFF;
+	text-decoration: none;
+}*/
+
+a:hover {
+	color: #E4393C;
+}
+.navigation>li>a {
+	font-family: Arial, Verdana, "宋体";
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+
+/**
+ * 设置回到顶部样式
+ */
+#scrollBar A {
+	text-indent: -2000em;
+	width: 19px;
+	display: block;
+	background: url(../images/top.png) no-repeat;
+	height: 57px;
+	overflow: hidden;
+	cursor: pointer
+}
+
+#scrollBar A:hover {
+	background-position: right 0px;
+}
+
+/**
+ * 文本如果超长，多余的文字用...代替
+ */
+.hiddenText {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+}
+
+.dashedTable td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-bottom-style: dashed;
+}
+
+table {
+	width: 100%;
+}
+
+table tr {
+	height: 40px;
+}
+
+table th {
+	background: #E0E0E0;
+	border-bottom : 1px solid #999999;
+}
+/*
+table td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-bottom-style: dashed;
+}
+
+table th {
+	background: #E0E0E0;
+	border-bottom : 1px solid #999999;
+}
+
+.td-xh {
+	border-width: 1px;
+	border-color: #CCCCCC;
+	border-bottom-style: dashed;
+}*/
+
+/*隐藏DIV方式*/
+.hid_div {
+	display: none;
+	border: #cccccc 1px solid;
+}
+
+/*控制文本自动换行*/
+.text_break_word {
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+.size-a {
+	font-size: large;
+	color : #999999;
+	width : 100%;
+	height : 100%;
+	font-weight: bold;
+}
+
+.size-a:hover,.size-a:focus {
+	color: #000000;
+	text-decoration: none;
+}
